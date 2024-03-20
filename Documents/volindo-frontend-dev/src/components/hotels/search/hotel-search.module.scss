@@ -1,0 +1,195 @@
+.hotelSearch {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: flex-start;
+  padding: 0 10px;
+
+  &_destination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    border-radius: 25px;
+    background: white;
+    width: 100%;
+    height: 59px;
+    overflow: hidden;
+
+    &_wrapper {
+      padding-left: 11px;
+    }
+
+    &_selection {
+      width: 100%;
+      span {
+        max-width: 95%;
+      }
+    }
+
+    &_dropdown {
+      button {
+        img {
+          width: 16px;
+          height: 12px;
+          min-width: unset;
+          max-height: unset;
+        }
+
+        img[alt='city'] {
+          width: 12px;
+          height: 16px;
+          margin: 3px 2px;
+        }
+      }
+    }
+  }
+
+  &_dates {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    background-color: white;
+    border-radius: 25px;
+    height: 59px;
+
+    &_booking {
+      height: 48px;
+    }
+  }
+
+  &_travelers {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 25px;
+    padding: 0 2rem 0 1rem;
+    height: 59px;
+
+    &_booking {
+      height: 48px;
+    }
+
+    &_button {
+      display: flex;
+      width: 100%;
+      font-size: 15px;
+      font-weight: 510;
+      align-items: center;
+      padding-left: 11px;
+      justify-content: space-between;
+      color: black;
+
+      &::after {
+        content: '';
+        background-image: url('../../../assets/icons/arrow-down.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 12px;
+        height: 7px;
+        min-width: 12px;
+        display: block;
+      }
+    }
+
+    &_menu {
+      margin-left: 40px;
+    }
+  }
+
+  &_button {
+    position: relative;
+    color: white;
+    width: 100%;
+    margin: auto 0 30px 0;
+    height: 48px;
+    background-color: black;
+    border-radius: 33px;
+    font-size: 14px;
+    height: 59px;
+
+    &_booking {
+      background-color: var(--primary-background);
+      height: 48px;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    height: 59px;
+    border-radius: 24px;
+    padding: 0 0 0 0;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: space-between;
+    gap: 0px;
+    border-radius: 25px;
+    background-color: white;
+    max-width: 950px;
+
+    &_booking {
+      max-width: inherit;
+      height: 48px;
+    }
+
+    &_destination {
+      width: 100%;
+      background-color: transparent;
+      border: none;
+      height: auto;
+
+      &_selection {
+        width: auto;
+        max-width: 245px;
+        display: flex;
+        justify-content: space-between;
+
+        &_booking {
+          max-width: 375px;
+        }
+
+        span {
+          white-space: nowrap;
+          max-width: 100%;
+        }
+
+        &::after {
+          content: '';
+          background-image: url('../../../assets/icons/arrow-down.svg');
+          background-repeat: no-repeat;
+          background-size: contain;
+          width: 12px;
+          height: 7px;
+          min-width: 12px;
+          display: block;
+        }
+      }
+    }
+
+    &_dates {
+      background-color: transparent;
+      border: none;
+      padding: 0 0 0 15px;
+      max-width: 30%;
+    }
+
+    &_travelers {
+      background-color: transparent;
+      min-width: 175px;
+      border: none;
+      padding: auto;
+      max-width: 25%;
+    }
+
+    &_button {
+      margin: 0;
+      height: auto;
+      max-width: 140px;
+      right: -5px;
+    }
+  }
+}

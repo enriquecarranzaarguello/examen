@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  justify-content: center;
+
+  &_title {
+    color: #fff;
+    font-size: 0.8125rem;
+    opacity: 0.48;
+  }
+
+  &_inputs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: space-between;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+  }
+
+  @media only screen and (min-width: 768px) {
+    margin: 0;
+
+    &_title {
+      font-size: 13px;
+      margin: 0;
+    }
+
+    &_inputs {
+      gap: 0;
+    }
+  }
+}

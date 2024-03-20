@@ -1,0 +1,49 @@
+.bedsStatus {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 15px;
+
+  &_icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &_dot {
+    width: 6px;
+    height: 6px;
+    background: #000;
+    border-radius: 100%;
+    margin-bottom: 2px;
+
+    &_little {
+      width: 2px;
+      height: 2px;
+      background: #000;
+      border-radius: 100%;
+    }
+  }
+
+  &_line {
+    width: 8px;
+    height: 2px;
+    background: #000;
+  }
+
+  &_item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  &_count {
+    flex-shrink: 0;
+  }
+
+  @media (min-width: 1280px) {
+    margin-bottom: 0px;
+  }
+}

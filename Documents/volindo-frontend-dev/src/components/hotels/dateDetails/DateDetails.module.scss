@@ -1,0 +1,74 @@
+.dateAndHours {
+  width: 100%;
+  min-height: 58px;
+  height: auto;
+  padding: 0.5rem 1.25rem;
+  border-radius: 0.75rem;
+  background-color: rgba(255, 255, 255, 0.08);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.4rem;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+
+  &_dateContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.15rem;
+
+    &_text {
+      color: white;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px;
+      opacity: 0.5;
+    }
+    &_date {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 0.5rem;
+    }
+  }
+
+  &_label {
+    font-size: 8px;
+  }
+
+  &_line {
+    width: 25px;
+  }
+
+  &_dates {
+    color: white;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+  }
+
+  &_icon {
+    position: relative;
+    align-items: flex-start;
+    top: -12px;
+  }
+
+  @media (min-width: 768px) {
+    gap: 2.5rem;
+
+    &_dateContainer {
+      flex-direction: row;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    &_icon {
+      position: block;
+      top: 0;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.add_traveler {
+  max-width: 700px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 20px 20px 20px;
+  overflow: auto;
+  &_title {
+    margin-right: auto;
+    font-weight: 760;
+    font-size: 30px;
+    text-align: left;
+    color: white;
+    transform: scaleY(0.8);
+  }
+  &_form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-weight: 510;
+    font-size: 14px;
+
+    &_input {
+      width: 100%;
+      height: 50px;
+      background-color: transparent;
+      border: 2px;
+      border-radius: 999px;
+      padding: 1.25rem;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      color: white;
+    }
+  }
+  // @media (min-width: 768px) {
+  //   max-height: 550px;
+  // }
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}

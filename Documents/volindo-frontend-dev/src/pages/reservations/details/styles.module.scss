@@ -1,0 +1,15 @@
+.bookingConfirmation {
+  &_notConfirmed {
+    &_h2 {
+      font-size: 32px;
+      font-weight: 650;
+      color: rgba(239, 68, 68, 0.7);
+      margin-bottom: 27px;
+    }
+
+    &_p {
+      color: rgba(239, 68, 68, 0.7);
+      margin-bottom: 27px;
+    }
+  }
+}

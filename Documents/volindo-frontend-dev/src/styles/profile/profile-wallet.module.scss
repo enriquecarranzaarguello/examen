@@ -1,0 +1,62 @@
+.insuficient_funds_modal {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+
+  &__title {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 760;
+    line-height: 34.5px;
+    letter-spacing: -0.4px;
+    margin: 0 0 20px;
+  }
+
+  &__content {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    opacity: 0.78;
+    margin: 0 0 30px;
+  }
+
+  &__button {
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 90px;
+    color: black;
+    background-color: theme('colors.whiteLabelColor');
+    font-size: 16px;
+    font-weight: 760;
+    line-height: 16px;
+  }
+
+  @media only screen and (min-width: 768px) {
+    padding: 40px;
+
+    &__title {
+      font-size: 36px;
+      letter-spacing: -0.36px;
+      max-width: 470px;
+    }
+
+    &__content {
+      font-size: 18px;
+      max-width: 470px;
+    }
+  }
+}

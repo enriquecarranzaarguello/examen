@@ -1,0 +1,127 @@
+@use 'abstracts' as *;
+
+.container {
+  border-radius: 20px;
+  border: 0.6px solid rgba(0, 0, 0, 0.04);
+  background-color: #141414;
+  margin: 15px 0 0 0;
+  padding: 19px 16px 15px 16px;
+
+  .spinner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+  }
+
+  &_category {
+    &_title {
+      position: relative;
+      display: flex;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 590;
+      margin: 0 0 15px 0;
+    }
+
+    &_holder {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+
+      &_card {
+        position: relative;
+        width: 100%;
+
+        &_label {
+          position: absolute;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: black;
+          right: 10px;
+          top: 10px;
+          height: 26px;
+          padding: 7px 21px;
+          border-radius: 10px;
+          font-size: 10px;
+          font-weight: 700;
+          z-index: 10;
+        }
+
+        img {
+          width: 100%;
+          opacity: 0.9;
+        }
+
+        p {
+          margin-top: 12px;
+          color: white;
+          font-size: 14px;
+          font-weight: 590;
+        }
+      }
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    padding: 15px 0 15px 24px;
+    &_category {
+      &_title {
+        font-size: 18px;
+        font-weight: 510;
+      }
+
+      &_holder {
+        gap: 10px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        &_card {
+          width: auto;
+          cursor: pointer;
+          margin: 10px 0;
+
+          &:hover {
+            scale: 105%;
+          }
+
+          img {
+            width: revert-layer;
+          }
+        }
+      }
+    }
+  }
+}
+
+.helpCenter {
+  padding: 0 20px;
+  .mainTitle {
+    display: inline-block;
+    line-height: 116%;
+    font-weight: 650;
+    font-size: 24px;
+    letter-spacing: 0.24px;
+    color: white;
+    padding-left: 18px;
+    margin-top: 15px;
+    transform: scaleX(1.2) scaleY(0.9);
+  }
+
+  @include mediaQuery('md') {
+    padding: 0;
+  }
+
+  @include mediaQuery('lg') {
+    .mainTitle {
+      font-size: 32px;
+      padding-left: 24px;
+      font-weight: 760;
+    }
+  }
+}

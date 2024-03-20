@@ -1,0 +1,342 @@
+.hotelCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.25rem 0;
+
+  &__mini {
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 0.8rem;
+    // border: blue solid 2px;
+    border-radius: 12px;
+    text-overflow: ellipsis;
+    color: black;
+  }
+
+  &_info {
+    align-items: center;
+    margin: 1.25rem 0;
+    width: 100%;
+
+    &__mini {
+      // border: red solid 3px;
+      flex-direction: column;
+      margin: 0;
+    }
+
+    &_image {
+      position: relative;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-width: 200px;
+      min-height: 160px;
+      margin: 0 0 10px 0;
+      border-radius: 12px;
+      cursor: pointer;
+
+      &__mini {
+        min-width: 100%;
+        min-height: 80px;
+        background-position: center;
+        background-size: cover;
+        border-radius: 0;
+      }
+
+      &_rating {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        gap: 4px;
+        min-height: 16px;
+        padding: 2px 6px;
+        border-radius: 26px;
+        background-color: #212020;
+
+        &_label {
+          font-size: 14px;
+          font-weight: 650;
+          color: white;
+          transform: scaleX(1);
+        }
+      }
+    }
+
+    &_details {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      &__mini {
+        gap: 0;
+        padding: 0 10px;
+        margin: 0 0 5px 0;
+      }
+
+      &_sections {
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+
+        &_title {
+          display: flex;
+          font-size: 22px;
+          font-weight: 650;
+          letter-spacing: 0.5px;
+          cursor: pointer;
+          line-height: 1;
+          transform: scaleY(0.8);
+          text-overflow: ellipsis;
+
+          &__mini {
+            text-overflow: ellipsis;
+            font-size: 20px;
+          }
+        }
+
+        &_address {
+          display: flex;
+          gap: 0.5rem;
+          align-items: center;
+
+          &__mini {
+            text-overflow: ellipsis;
+          }
+
+          &_text {
+            font-size: 14px;
+            opacity: 0.64;
+            color: #101010;
+            font-weight: 400;
+
+            &__mini {
+              text-overflow: ellipsis;
+            }
+          }
+        }
+
+        &_compare {
+          display: flex;
+          position: relative;
+          font-size: 14px;
+          color: #626262;
+          font-weight: 500;
+          text-decoration: underline;
+        }
+
+        &_starsDiv {
+          display: none;
+        }
+      }
+
+      &_clickables {
+        &_buttons {
+          &__map {
+            &__mini {
+              display: none;
+            }
+          }
+
+          &__compare {
+            display: none;
+
+            &__mini {
+              display: flex;
+              position: relative;
+              font-size: 14px;
+              color: #626262;
+              font-weight: 500;
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &_priceButton {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+
+    &__mini {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    &_price {
+      text-align: center;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      &_num {
+        font-size: 26px;
+        font-weight: 500;
+        transform: scaleY(0.7);
+
+        &__mini {
+          font-size: 1.25rem;
+          transform: scaleY(1);
+        }
+      }
+
+      &_text {
+        font-size: 12px;
+        color: gray;
+
+        &__mini {
+          font-size: 0.65rem;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 1024px) {
+    flex-direction: row;
+
+    &__mini {
+      flex-direction: column;
+      margin: 0 0 12px 0;
+    }
+
+    &_info {
+      display: flex;
+      gap: 1rem;
+
+      &__mini {
+        gap: 0;
+      }
+
+      &_image {
+        margin: 0 0 0 0;
+        &__mini {
+          margin: 0 0 10px 0;
+        }
+      }
+
+      &_details {
+        gap: 1.5rem;
+
+        &__mini {
+          gap: 0;
+        }
+
+        &_sections {
+          &__mini {
+            gap: 0;
+          }
+
+          &_title {
+            font-size: 20px;
+            font-weight: 900;
+            transform: scaleY(1);
+
+            &__mini {
+              margin: 0 0 5px 0;
+            }
+          }
+
+          &_address {
+            &_text {
+              font-size: 12px;
+
+              &__mini {
+                // max-width: 60ch;
+              }
+            }
+          }
+
+          &_compare {
+            display: none;
+          }
+
+          &_starsDiv {
+            display: flex;
+            gap: 0.25rem;
+            align-items: center;
+
+            &__mini {
+              display: none;
+            }
+          }
+        }
+
+        &_clickables {
+          display: flex;
+          margin: 5px 0 0 0;
+          flex-direction: column;
+          gap: 0.5rem;
+
+          &_ameneties {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+          }
+
+          &_buttons {
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.25rem;
+            font-size: 10px;
+            font-weight: 500;
+            text-decoration: underline;
+            margin: 0 5px;
+
+            &__map {
+              &__mini {
+                display: none;
+              }
+            }
+
+            &__compare {
+              display: flex;
+            }
+          }
+        }
+      }
+    }
+
+    &_priceButton {
+      flex-direction: column;
+      justify-content: center;
+      max-width: 140px;
+      margin: 15px 0 0 0;
+
+      &__mini {
+        margin: 0;
+      }
+
+      &_price {
+        &_num {
+          font-size: 30px;
+          font-weight: 760;
+
+          &__mini {
+            font-size: 1.25rem;
+          }
+        }
+
+        &_text {
+          color: black;
+          font-size: 14px;
+
+          &__mini {
+            font-size: 0.65rem;
+          }
+        }
+      }
+    }
+  }
+}

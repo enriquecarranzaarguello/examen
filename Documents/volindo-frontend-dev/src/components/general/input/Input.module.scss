@@ -1,0 +1,57 @@
+.wrapper {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem; // equivalent to 2 units in Tailwind
+
+  @media (min-width: 40rem) {
+    // xs breakpoint in Tailwind
+    margin-left: 0.3125rem;
+    margin-right: 0.3125rem;
+  }
+}
+
+.title {
+  color: #fff;
+  font-size: 0.8125rem;
+  opacity: 0.48;
+}
+
+.container {
+  position: relative;
+
+  .symbol {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0.5rem;
+    color: white;
+    font-size: 1rem;
+  }
+
+  .input {
+    width: 100%;
+    height: 2rem;
+    background-color: transparent;
+    border: 0.0625rem solid #e2e2e2;
+    border-radius: 0.9375rem;
+    color: white;
+    padding-left: 1.35rem; // equivalent to 5 units in Tailwind
+    padding-right: 1.25rem; // equivalent to 5 units in Tailwind
+    outline: none;
+
+    &:focus {
+      border: 0.0625rem solid var(--primary-background);
+    }
+  }
+  .input[type='number'] {
+    -moz-appearance: textfield; /* Firefox */
+  }
+
+  .input[type='number']::-webkit-outer-spin-button,
+  .input[type='number']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; /* You may want to adjust margin to improve visual alignment */
+  }
+}

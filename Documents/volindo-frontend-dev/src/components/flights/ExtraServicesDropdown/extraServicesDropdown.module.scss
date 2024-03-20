@@ -1,0 +1,129 @@
+.container {
+  width: 100%;
+  --color-text: black;
+
+  // Custom Details component
+  summary {
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    list-style: none;
+    &::marker,
+    &::-webkit-details-marker {
+      display: none;
+    }
+    &::after {
+      content: '';
+      display: block;
+      border-right: 2px solid;
+      border-bottom: 2px solid;
+      border-color: #474747;
+      position: absolute;
+      top: 30%;
+      right: 1%;
+      width: 8px;
+      height: 8px;
+      transform: rotate(45deg) translateY(-0.1em);
+    }
+  }
+  details[open] > summary::after {
+    transform: rotate(-135deg) translateY(-0.3em);
+    transform: rotate(-135deg) translateY(-1px) translateX(-2px);
+  }
+
+  .icon {
+    filter: invert(1);
+  }
+
+  &.white_mode {
+    --color-text: white;
+    .icon {
+      filter: none;
+    }
+  }
+}
+
+.dropdown {
+  &_title {
+    display: flex;
+    padding: 2px 0;
+    font-weight: 600;
+    color: var(--color-text);
+    height: fit-content;
+    align-items: center;
+    margin-bottom: 8px;
+
+    &__flight {
+      img {
+        margin-right: 8px;
+      }
+    }
+
+    &__bags {
+      pointer-events: none;
+      &::after {
+        display: none !important;
+      }
+      img {
+        margin-right: 3px;
+      }
+    }
+
+    &__seats {
+      pointer-events: none;
+      &::after {
+        display: none !important;
+      }
+    }
+
+    &__insurance {
+      margin: 0;
+
+      img {
+        margin-right: 6px;
+      }
+
+      &_container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 8px;
+      }
+    }
+
+    &__booking_reference {
+      img {
+        margin-right: 6px;
+      }
+      &_container {
+        margin-left: 3px;
+      }
+    }
+  }
+
+  &_inner_dropdown {
+    margin-left: 25px;
+  }
+
+  &_item {
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    align-items: center;
+    margin-left: 25px;
+    margin-bottom: 5px;
+
+    &_label {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+
+      input {
+        accent-color: var(--primary-background);
+        width: 15px;
+        height: 15px;
+        pointer-events: none;
+      }
+    }
+  }
+}

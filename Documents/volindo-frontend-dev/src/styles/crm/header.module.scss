@@ -1,0 +1,40 @@
+.header_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: center;
+
+  &_card {
+    width: 100%;
+    max-width: 410px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border-radius: 7px;
+    border-width: 1px;
+    border-color: #323232;
+    background-color: #191919;
+    gap: 0.75rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    margin-top: 1.25rem;
+    &_button {
+      flex: 1;
+      height: 30px;
+      font-size: 13px;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: flex-start;
+
+    &_card {
+      &_button {
+        font-size: 14px;
+      }
+    }
+  }
+}

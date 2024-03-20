@@ -1,0 +1,67 @@
+.filterMobile {
+  display: flex;
+  width: 100%;
+  padding: 0 10px;
+  align-items: center;
+
+  &_container {
+    width: 100%;
+
+    &_card {
+      width: 100%;
+      background-color: #212020;
+      display: flex;
+      flex-direction: row;
+      border-radius: 9999px;
+      padding: 11px 29px 11px 18px;
+      align-items: center;
+
+      &_pin {
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        &_button {
+          justify-content: center;
+        }
+      }
+
+      &_content {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+
+        &_city {
+          font-size: 15px;
+          font-weight: 500;
+          color: white;
+          border: none;
+        }
+
+        &_travelers {
+          font-size: 12px;
+          // --tw-text-opacity: 1;
+          opacity: 1;
+          color: rgba(255, 255, 255, 0.39);
+          text-transform: capitalize;
+        }
+      }
+
+      &_cardIcon {
+        width: 15%;
+        display: flex;
+        justify-self: center;
+
+        &_button {
+          justify-content: center;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    display: none;
+  }
+}

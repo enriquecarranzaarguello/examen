@@ -1,0 +1,644 @@
+.wrapper {
+  position: relative;
+  padding: 12px 10px 30px 10px;
+  background-color: rgba(253, 253, 253, 0.05);
+  position: relative;
+  margin-top: 15px;
+  min-height: calc(100vh - 300px);
+
+  &__stories {
+    height: 100%;
+  }
+
+  &__title {
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 510;
+    line-height: normal;
+  }
+
+  &__post {
+    margin-top: 30px;
+  }
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  row-gap: 35px;
+  margin-bottom: 40px;
+}
+
+.item,
+.itemPost {
+  width: 100%;
+  max-width: 253px;
+  color: #fff;
+
+  &__inner {
+    position: relative;
+    padding-right: 12px;
+    padding-left: 12px;
+    height: 100%;
+    background-color: #1b1c1d;
+    background-size: cover;
+  }
+
+  &__bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__title {
+    margin-bottom: 6px;
+    font-size: 16.355px;
+    font-weight: 760;
+    line-height: 21.451px;
+    transform: scaleY(0.8);
+  }
+
+  &__wrap-image {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 7px;
+
+    img {
+      width: 59px;
+      height: 59px;
+    }
+  }
+
+  &__hotel-name {
+    max-width: 100px;
+    font-size: 9.866px;
+    font-weight: 700;
+  }
+
+  &__location,
+  &__calendar {
+    font-size: 7.517px;
+    font-weight: 510;
+  }
+
+  &__about-hotel {
+    font-size: 9.396px;
+    font-weight: 590;
+    line-height: 19.229px;
+
+    &-description {
+      font-size: 9px;
+      line-height: normal;
+    }
+
+    &-text {
+      font-size: 8.456px;
+      font-weight: 510;
+    }
+  }
+
+  &__about-discount {
+    font-size: 8.456px;
+    font-weight: 510;
+  }
+
+  &__price-bg {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  &__price {
+    font-size: 10.503px;
+    font-weight: 700;
+
+    span {
+      display: block;
+      font-size: 15.702px;
+      font-weight: 700;
+    }
+
+    &-best {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      height: 27px;
+      max-width: 110px;
+      padding: 2px 5px 2px 2px;
+      margin-top: 5px;
+      border-radius: 5px;
+      background: white;
+      color: black;
+      font-size: 11.725px;
+      font-weight: 700;
+      line-height: 24.481px;
+
+      .logo {
+        display: flex;
+        justify-content: center;
+        width: 48px;
+        height: 100%;
+        background: #69a2f7;
+        border-radius: 5px;
+
+        span {
+          font-size: 5px;
+        }
+      }
+    }
+
+    .logo {
+      span {
+        font-size: 5px;
+        color: #fff;
+      }
+    }
+
+    &-offers {
+      margin: 0 auto;
+    }
+
+    &-booking {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      max-width: 79px;
+      padding: 2px 5px 2px 2px;
+      border-radius: 3.277px;
+      background: #fcfcfa;
+      color: black;
+      height: 25px;
+
+      .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+        width: 40px;
+        min-height: 17px;
+        height: 100%;
+        border-radius: 2px;
+        background: #69a2f7;
+      }
+
+      .price {
+        font-size: 8px;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  &__contacts {
+    p {
+      margin-bottom: 5px;
+      font-size: 10.991px;
+      font-weight: 590;
+    }
+
+    &-item {
+      display: flex;
+      gap: 5px;
+      font-size: 8.419px;
+      font-weight: 510;
+      line-height: 14.98px;
+    }
+  }
+
+  &__button-load {
+    display: block;
+    margin-left: auto;
+  }
+
+  &:nth-child(4n + 1) {
+    .item {
+      &__title {
+        font-size: 19.935px;
+        font-style: normal;
+        font-weight: 760;
+      }
+
+      &__wrap {
+        padding: 11px 9px 10px 13px;
+        border-radius: 5.274px;
+        background: #69a2f7;
+      }
+
+      &__inner {
+        padding-top: 28px;
+        padding-bottom: 22px;
+
+        background-image: url('../../public/marketing/deal-templates/dealTemplate1.png');
+      }
+
+      &__about-discount {
+        margin-bottom: 7px;
+      }
+
+      &__price-bg {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 20px;
+        border-radius: 6px;
+      }
+
+      &__price {
+        font-size: 10.503px;
+        font-weight: 700;
+        line-height: 15.754px;
+        letter-spacing: 0.105px;
+
+        &-best {
+          display: flex;
+        }
+
+        &-booking {
+          display: flex;
+        }
+      }
+
+      &__contacts {
+        margin-top: 23px;
+      }
+
+      &__contacts-item {
+        display: flex;
+        gap: 5px;
+      }
+    }
+  }
+
+  &:nth-child(4n + 2) {
+    .item {
+      &__inner {
+        padding-top: 8px;
+        background-image: url('../../public/marketing/deal-templates/dealTemplate2.png');
+      }
+
+      &__title {
+        margin-bottom: 33px;
+        text-align: center;
+      }
+
+      &__about-hotel {
+        padding: 14px 5px 15px 10px;
+        background-color: #3d1dff;
+        border-radius: 13px;
+      }
+
+      &__about-discount {
+        color: #e2861a;
+      }
+
+      &__price-bg {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+        justify-content: flex-start;
+      }
+
+      &__price {
+        span {
+          display: block;
+        }
+
+        &-best {
+          display: flex;
+          background: #2b2b2b;
+          color: white;
+
+          .logo {
+            background: #3d1dff;
+          }
+        }
+      }
+
+      &__price-booking {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        height: 27px;
+        background: #2b2b2b;
+        color: white;
+
+        .logo {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 35px;
+          height: 100%;
+          background: #163a90;
+          border-radius: 5px;
+        }
+      }
+
+      &__contacts {
+        p {
+          font-size: 10px;
+          margin: 10px 0;
+        }
+      }
+
+      &__contacts-item {
+        display: flex;
+        gap: 5px;
+        font-size: 9px;
+      }
+    }
+  }
+
+  &:nth-child(4n + 3) {
+    .item {
+      &__inner {
+        position: relative;
+        padding-top: 5px;
+        background-image: url('../../public/marketing/deal-templates/dealTemplate3.png');
+      }
+
+      &__title {
+        margin-bottom: 33px;
+        text-align: center;
+      }
+
+      &__wrap-image {
+        img {
+          display: none;
+        }
+      }
+
+      &__about-hotel-text {
+        max-width: 100%;
+      }
+
+      &__about-discount {
+        margin-bottom: 18px;
+        color: #28fbff;
+      }
+
+      &__price-bg {
+        justify-content: flex-start;
+        flex-direction: column;
+        img {
+          width: 29px;
+        }
+      }
+
+      &__price {
+        font-size: 17px;
+        span {
+          display: block;
+        }
+      }
+
+      &__price-best {
+        display: flex;
+        background: #2b2b2b;
+        color: white;
+        font-size: 12px;
+
+        .logo {
+          background: black;
+        }
+      }
+
+      &__price-booking {
+        display: flex;
+        height: 27px;
+        border-radius: 5px;
+        background: #2b2b2b;
+        color: white;
+
+        .logo {
+          width: 35px;
+          height: 100%;
+          background: #163a90;
+          border-radius: 5px;
+        }
+      }
+
+      &__contacts {
+        p {
+          margin-top: 15px;
+          font-size: 11px;
+        }
+      }
+
+      &__contacts-item {
+        display: flex;
+        gap: 5px;
+        font-size: 8px;
+      }
+    }
+  }
+
+  &:nth-child(4n + 4) {
+    .item {
+      &__inner {
+        padding-top: 7px;
+        background-image: url('../../public/marketing/deal-templates/dealTemplate4.png');
+      }
+
+      &__title {
+        text-align: center;
+        margin-bottom: 34px;
+      }
+
+      &__wrap-image {
+        margin-bottom: 12px;
+
+        img {
+          display: none;
+        }
+      }
+
+      &__about-hotel-description {
+        font-size: 10px;
+        font-size: 9.354px;
+        font-weight: 590;
+        line-height: 19.143px;
+      }
+
+      &__about-hotel-text {
+        font-size: 8.419px;
+        font-weight: 510;
+        line-height: 11.59px;
+      }
+
+      &__about-discount {
+        margin-top: 0;
+        color: #28fbff;
+        margin-bottom: 19px;
+      }
+
+      &__price-bg {
+        flex-direction: column;
+        gap: 8px;
+        margin-bottom: 20px;
+        img {
+          width: 29px;
+        }
+      }
+
+      &__price {
+        margin: 0;
+        span {
+          display: block;
+          font-weight: 700;
+          letter-spacing: 0.169px;
+        }
+
+        &-best {
+          background-color: #2b2b2b;
+          color: white;
+          font-size: 11.725px;
+          font-weight: 700;
+
+          .logo {
+            background-color: #1070ff;
+          }
+        }
+
+        &-booking {
+          background-color: #2b2b2b;
+          color: white;
+
+          .logo {
+            background-color: #163a90;
+          }
+        }
+      }
+    }
+
+    .item__priceBg {
+      img {
+        width: 29px;
+        height: 47px;
+      }
+    }
+
+    .item__price {
+      font-size: 23px;
+    }
+  }
+}
+
+.itemPost {
+  .itemInner {
+    height: 300px;
+  }
+
+  .item__title {
+    font-size: 12.847px;
+    font-weight: 760;
+  }
+
+  .item__imageWrap {
+    img {
+      width: 53px;
+      height: 53px;
+    }
+  }
+
+  .item__hotelName {
+    max-width: 100px;
+    font-size: 8.83px;
+    font-weight: 700;
+  }
+
+  .item__aboutMe {
+    font-size: 8.409px;
+    font-weight: 590;
+  }
+
+  .item__aboutMeText {
+    margin-bottom: 6px;
+    font-size: 7.568px;
+    font-weight: 510;
+  }
+
+  .item__aboutDiscont {
+    margin-top: 0;
+    font-size: 7.568px;
+  }
+
+  &:first-child {
+    .itemInner {
+      padding-top: 34px;
+    }
+  }
+
+  &:nth-child(2) {
+    .itemInner {
+      padding-top: 33px;
+    }
+
+    .item__img {
+      width: 37px;
+      height: 37px;
+    }
+
+    .item__hotelName {
+      max-width: 100%;
+    }
+
+    .item__aboutMeText {
+      max-width: 100%;
+    }
+
+    .item__aboutMeText {
+      margin-bottom: 0;
+    }
+
+    .item__aboutDiscont {
+      color: #e2861a;
+    }
+
+    .item__price {
+      font-size: 9.4px;
+    }
+  }
+
+  &:nth-child(3) {
+    .itemInner {
+      padding-top: 34px;
+    }
+
+    .item__aboutMeText {
+      margin-bottom: 18px;
+    }
+  }
+
+  &:nth-child(4) {
+    .itemInner {
+      padding-top: 34px;
+    }
+
+    .item__aboutMeText {
+      margin-bottom: 18px;
+    }
+  }
+}
+
+.templates__loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+}

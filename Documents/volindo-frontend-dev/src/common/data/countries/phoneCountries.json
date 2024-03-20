@@ -1,0 +1,834 @@
+[
+  {
+    "iso_code": "US",
+    "code": "+1"
+  },
+  {
+    "iso_code": "KZ",
+    "code": "+7"
+  },
+  {
+    "iso_code": "RU",
+    "code": "+7"
+  },
+  {
+    "iso_code": "EG",
+    "code": "+20"
+  },
+  {
+    "iso_code": "ZA",
+    "code": "+27"
+  },
+  {
+    "iso_code": "GR",
+    "code": "+30"
+  },
+  {
+    "iso_code": "NL",
+    "code": "+31"
+  },
+  {
+    "iso_code": "BE",
+    "code": "+32"
+  },
+  {
+    "iso_code": "FR",
+    "code": "+33"
+  },
+  {
+    "iso_code": "ES",
+    "code": "+34"
+  },
+  {
+    "iso_code": "HU",
+    "code": "+36"
+  },
+  {
+    "iso_code": "IT",
+    "code": "+39"
+  },
+  {
+    "iso_code": "RO",
+    "code": "+40"
+  },
+  {
+    "iso_code": "CH",
+    "code": "+41"
+  },
+  {
+    "iso_code": "AT",
+    "code": "+43"
+  },
+  {
+    "iso_code": "GB",
+    "code": "+44"
+  },
+  {
+    "iso_code": "DK",
+    "code": "+45"
+  },
+  {
+    "iso_code": "SE",
+    "code": "+46"
+  },
+  {
+    "iso_code": "NO",
+    "code": "+47"
+  },
+  {
+    "iso_code": "SJ",
+    "code": "+47"
+  },
+  {
+    "iso_code": "PL",
+    "code": "+48"
+  },
+  {
+    "iso_code": "DE",
+    "code": "+49"
+  },
+  {
+    "iso_code": "PE",
+    "code": "+51"
+  },
+  {
+    "iso_code": "MX",
+    "code": "+52"
+  },
+  {
+    "iso_code": "CU",
+    "code": "+53"
+  },
+  {
+    "iso_code": "AR",
+    "code": "+54"
+  },
+  {
+    "iso_code": "BR",
+    "code": "+55"
+  },
+  {
+    "iso_code": "CL",
+    "code": "+56"
+  },
+  {
+    "iso_code": "CO",
+    "code": "+57"
+  },
+  {
+    "iso_code": "VE",
+    "code": "+58"
+  },
+  {
+    "iso_code": "MY",
+    "code": "+60"
+  },
+  {
+    "iso_code": "AU",
+    "code": "+61"
+  },
+  {
+    "iso_code": "CX",
+    "code": "+61"
+  },
+  {
+    "iso_code": "CC",
+    "code": "+61"
+  },
+  {
+    "iso_code": "ID",
+    "code": "+62"
+  },
+  {
+    "iso_code": "PH",
+    "code": "+63"
+  },
+  {
+    "iso_code": "NZ",
+    "code": "+64"
+  },
+  {
+    "iso_code": "PN",
+    "code": "+64"
+  },
+  {
+    "iso_code": "SG",
+    "code": "+65"
+  },
+  {
+    "iso_code": "TH",
+    "code": "+66"
+  },
+  {
+    "iso_code": "JP",
+    "code": "+81"
+  },
+  {
+    "iso_code": "KR",
+    "code": "+82"
+  },
+  {
+    "iso_code": "VN",
+    "code": "+84"
+  },
+  {
+    "iso_code": "CN",
+    "code": "+86"
+  },
+  {
+    "iso_code": "TR",
+    "code": "+90"
+  },
+  {
+    "iso_code": "IN",
+    "code": "+91"
+  },
+  {
+    "iso_code": "PK",
+    "code": "+92"
+  },
+  {
+    "iso_code": "AF",
+    "code": "+93"
+  },
+  {
+    "iso_code": "LK",
+    "code": "+94"
+  },
+  {
+    "iso_code": "MM",
+    "code": "+95"
+  },
+  {
+    "iso_code": "IR",
+    "code": "+98"
+  },
+  {
+    "iso_code": "SS",
+    "code": "+211"
+  },
+  {
+    "iso_code": "MA",
+    "code": "+212"
+  },
+  {
+    "iso_code": "EH",
+    "code": "+212"
+  },
+  {
+    "iso_code": "DZ",
+    "code": "+213"
+  },
+  {
+    "iso_code": "TN",
+    "code": "+216"
+  },
+  {
+    "iso_code": "LY",
+    "code": "+218"
+  },
+  {
+    "iso_code": "GM",
+    "code": "+220"
+  },
+  {
+    "iso_code": "SN",
+    "code": "+221"
+  },
+  {
+    "iso_code": "MR",
+    "code": "+222"
+  },
+  {
+    "iso_code": "ML",
+    "code": "+223"
+  },
+  {
+    "iso_code": "GN",
+    "code": "+224"
+  },
+  {
+    "iso_code": "CI",
+    "code": "+225"
+  },
+  {
+    "iso_code": "BF",
+    "code": "+226"
+  },
+  {
+    "iso_code": "NE",
+    "code": "+227"
+  },
+  {
+    "iso_code": "TG",
+    "code": "+228"
+  },
+  {
+    "iso_code": "BJ",
+    "code": "+229"
+  },
+  {
+    "iso_code": "MU",
+    "code": "+230"
+  },
+  {
+    "iso_code": "LR",
+    "code": "+231"
+  },
+  {
+    "iso_code": "SL",
+    "code": "+232"
+  },
+  {
+    "iso_code": "GH",
+    "code": "+233"
+  },
+  {
+    "iso_code": "NG",
+    "code": "+234"
+  },
+  {
+    "iso_code": "TD",
+    "code": "+235"
+  },
+  {
+    "iso_code": "CF",
+    "code": "+236"
+  },
+  {
+    "iso_code": "CM",
+    "code": "+237"
+  },
+  {
+    "iso_code": "CV",
+    "code": "+238"
+  },
+  {
+    "iso_code": "ST",
+    "code": "+239"
+  },
+  {
+    "iso_code": "GQ",
+    "code": "+240"
+  },
+  {
+    "iso_code": "GA",
+    "code": "+241"
+  },
+  {
+    "iso_code": "CG",
+    "code": "+242"
+  },
+  {
+    "iso_code": "CD",
+    "code": "+243"
+  },
+  {
+    "iso_code": "AO",
+    "code": "+244"
+  },
+  {
+    "iso_code": "GW",
+    "code": "+245"
+  },
+  {
+    "iso_code": "IO",
+    "code": "+246"
+  },
+  {
+    "iso_code": "SC",
+    "code": "+248"
+  },
+  {
+    "iso_code": "SD",
+    "code": "+249"
+  },
+  {
+    "iso_code": "RW",
+    "code": "+250"
+  },
+  {
+    "iso_code": "ET",
+    "code": "+251"
+  },
+  {
+    "iso_code": "SO",
+    "code": "+252"
+  },
+  {
+    "iso_code": "DJ",
+    "code": "+253"
+  },
+  {
+    "iso_code": "KE",
+    "code": "+254"
+  },
+  {
+    "iso_code": "TZ",
+    "code": "+255"
+  },
+  {
+    "iso_code": "UG",
+    "code": "+256"
+  },
+  {
+    "iso_code": "BI",
+    "code": "+257"
+  },
+  {
+    "iso_code": "MZ",
+    "code": "+258"
+  },
+  {
+    "iso_code": "ZM",
+    "code": "+260"
+  },
+  {
+    "iso_code": "MG",
+    "code": "+261"
+  },
+  {
+    "iso_code": "YT",
+    "code": "+262"
+  },
+  {
+    "iso_code": "RE",
+    "code": "+262"
+  },
+  {
+    "iso_code": "ZW",
+    "code": "+263"
+  },
+  {
+    "iso_code": "NA",
+    "code": "+264"
+  },
+  {
+    "iso_code": "MW",
+    "code": "+265"
+  },
+  {
+    "iso_code": "LS",
+    "code": "+266"
+  },
+  {
+    "iso_code": "BW",
+    "code": "+267"
+  },
+  {
+    "iso_code": "SZ",
+    "code": "+268"
+  },
+  {
+    "iso_code": "KM",
+    "code": "+269"
+  },
+  {
+    "iso_code": "SH",
+    "code": "+290"
+  },
+  {
+    "iso_code": "ER",
+    "code": "+291"
+  },
+  {
+    "iso_code": "AW",
+    "code": "+297"
+  },
+  {
+    "iso_code": "FO",
+    "code": "+298"
+  },
+  {
+    "iso_code": "GL",
+    "code": "+299"
+  },
+  {
+    "iso_code": "GI",
+    "code": "+350"
+  },
+  {
+    "iso_code": "PT",
+    "code": "+351"
+  },
+  {
+    "iso_code": "LU",
+    "code": "+352"
+  },
+  {
+    "iso_code": "IE",
+    "code": "+353"
+  },
+  {
+    "iso_code": "IS",
+    "code": "+354"
+  },
+  {
+    "iso_code": "AL",
+    "code": "+355"
+  },
+  {
+    "iso_code": "MT",
+    "code": "+356"
+  },
+  {
+    "iso_code": "CY",
+    "code": "+357"
+  },
+  {
+    "iso_code": "FI",
+    "code": "+358"
+  },
+  {
+    "iso_code": "BG",
+    "code": "+359"
+  },
+  {
+    "iso_code": "LT",
+    "code": "+370"
+  },
+  {
+    "iso_code": "LV",
+    "code": "+371"
+  },
+  {
+    "iso_code": "EE",
+    "code": "+372"
+  },
+  {
+    "iso_code": "MD",
+    "code": "+373"
+  },
+  {
+    "iso_code": "AM",
+    "code": "+374"
+  },
+  {
+    "iso_code": "BY",
+    "code": "+375"
+  },
+  {
+    "iso_code": "AD",
+    "code": "+376"
+  },
+  {
+    "iso_code": "MC",
+    "code": "+377"
+  },
+  {
+    "iso_code": "SM",
+    "code": "+378"
+  },
+  {
+    "iso_code": "VA",
+    "code": "+379"
+  },
+  {
+    "iso_code": "UA",
+    "code": "+380"
+  },
+  {
+    "iso_code": "RS",
+    "code": "+381"
+  },
+  {
+    "iso_code": "ME",
+    "code": "+382"
+  },
+  {
+    "iso_code": "XK",
+    "code": "+383"
+  },
+  {
+    "iso_code": "HR",
+    "code": "+385"
+  },
+  {
+    "iso_code": "SI",
+    "code": "+386"
+  },
+  {
+    "iso_code": "BA",
+    "code": "+387"
+  },
+  {
+    "iso_code": "MK",
+    "code": "+389"
+  },
+  {
+    "iso_code": "CZ",
+    "code": "+420"
+  },
+  {
+    "iso_code": "SK",
+    "code": "+421"
+  },
+  {
+    "iso_code": "LI",
+    "code": "+423"
+  },
+  {
+    "iso_code": "FK",
+    "code": "+500"
+  },
+  {
+    "iso_code": "BZ",
+    "code": "+501"
+  },
+  {
+    "iso_code": "GT",
+    "code": "+502"
+  },
+  {
+    "iso_code": "SV",
+    "code": "+503"
+  },
+  {
+    "iso_code": "HN",
+    "code": "+504"
+  },
+  {
+    "iso_code": "NI",
+    "code": "+505"
+  },
+  {
+    "iso_code": "CR",
+    "code": "+506"
+  },
+  {
+    "iso_code": "PA",
+    "code": "+507"
+  },
+  {
+    "iso_code": "PM",
+    "code": "+508"
+  },
+  {
+    "iso_code": "HT",
+    "code": "+509"
+  },
+  {
+    "iso_code": "BL",
+    "code": "+590"
+  },
+  {
+    "iso_code": "MF",
+    "code": "+590"
+  },
+  {
+    "iso_code": "BO",
+    "code": "+591"
+  },
+  {
+    "iso_code": "GY",
+    "code": "+592"
+  },
+  {
+    "iso_code": "EC",
+    "code": "+593"
+  },
+  {
+    "iso_code": "PY",
+    "code": "+595"
+  },
+  {
+    "iso_code": "SR",
+    "code": "+597"
+  },
+  {
+    "iso_code": "UY",
+    "code": "+598"
+  },
+  {
+    "iso_code": "CW",
+    "code": "+599"
+  },
+  {
+    "iso_code": "AN",
+    "code": "+599"
+  },
+  {
+    "iso_code": "TL",
+    "code": "+670"
+  },
+  {
+    "iso_code": "AQ",
+    "code": "+672"
+  },
+  {
+    "iso_code": "BN",
+    "code": "+673"
+  },
+  {
+    "iso_code": "NR",
+    "code": "+674"
+  },
+  {
+    "iso_code": "PG",
+    "code": "+675"
+  },
+  {
+    "iso_code": "TO",
+    "code": "+676"
+  },
+  {
+    "iso_code": "SB",
+    "code": "+677"
+  },
+  {
+    "iso_code": "VU",
+    "code": "+678"
+  },
+  {
+    "iso_code": "FJ",
+    "code": "+679"
+  },
+  {
+    "iso_code": "PW",
+    "code": "+680"
+  },
+  {
+    "iso_code": "WF",
+    "code": "+681"
+  },
+  {
+    "iso_code": "TK",
+    "code": "+690"
+  },
+  {
+    "iso_code": "PF",
+    "code": "+689"
+  },
+  {
+    "iso_code": "TK",
+    "code": "+690"
+  },
+  {
+    "iso_code": "FM",
+    "code": "+691"
+  },
+  {
+    "iso_code": "MH",
+    "code": "+692"
+  },
+  {
+    "iso_code": "KP",
+    "code": "+850"
+  },
+  {
+    "iso_code": "HK",
+    "code": "+852"
+  },
+  {
+    "iso_code": "MO",
+    "code": "+853"
+  },
+  {
+    "iso_code": "KH",
+    "code": "+855"
+  },
+  {
+    "iso_code": "LA",
+    "code": "+856"
+  },
+  {
+    "iso_code": "BD",
+    "code": "+880"
+  },
+  {
+    "iso_code": "TW",
+    "code": "+886"
+  },
+  {
+    "iso_code": "MV",
+    "code": "+960"
+  },
+  {
+    "iso_code": "LB",
+    "code": "+961"
+  },
+  {
+    "iso_code": "JO",
+    "code": "+962"
+  },
+  {
+    "iso_code": "SY",
+    "code": "+963"
+  },
+  {
+    "iso_code": "IQ",
+    "code": "+964"
+  },
+  {
+    "iso_code": "KW",
+    "code": "+965"
+  },
+  {
+    "iso_code": "SA",
+    "code": "+966"
+  },
+  {
+    "iso_code": "YE",
+    "code": "+967"
+  },
+  {
+    "iso_code": "OM",
+    "code": "+968"
+  },
+  {
+    "iso_code": "PS",
+    "code": "+970"
+  },
+  {
+    "iso_code": "AE",
+    "code": "+971"
+  },
+  {
+    "iso_code": "IL",
+    "code": "+972"
+  },
+  {
+    "iso_code": "BH",
+    "code": "+973"
+  },
+  {
+    "iso_code": "QA",
+    "code": "+974"
+  },
+  {
+    "iso_code": "BT",
+    "code": "+975"
+  },
+  {
+    "iso_code": "MN",
+    "code": "+976"
+  },
+  {
+    "iso_code": "NP",
+    "code": "+977"
+  },
+  {
+    "iso_code": "TJ",
+    "code": "+992"
+  },
+  {
+    "iso_code": "TM",
+    "code": "+993"
+  },
+  {
+    "iso_code": "AZ",
+    "code": "+994"
+  },
+  {
+    "iso_code": "GE",
+    "code": "+995"
+  },
+  {
+    "iso_code": "KG",
+    "code": "+996"
+  },
+  {
+    "iso_code": "UZ",
+    "code": "+998"
+  }
+]

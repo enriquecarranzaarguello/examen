@@ -1,0 +1,95 @@
+.card {
+  width: 220px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  padding-bottom: 15px;
+
+  &_details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    &_image {
+      min-width: 100%;
+      min-height: 80px;
+    }
+
+    &_hotelName {
+      width: 90%;
+      margin: 0 auto;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-size: 1.25rem;
+      font-weight: 760;
+      white-space: nowrap;
+    }
+
+    &_addressContainer {
+      width: 90%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 0.5rem;
+
+      &_address {
+        width: 100%;
+        color: black;
+        text-transform: capitalize;
+        opacity: 0.64;
+        font-size: 0.75rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    }
+
+    &_starsContainer {
+      width: 90%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      gap: 0.5rem;
+
+      &_text {
+        font-size: 0.75rem;
+        font-weight: 590;
+      }
+    }
+  }
+
+  &_priceContainer {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+
+    &_symbol {
+      font-size: 1.25rem;
+      font-weight: 760;
+    }
+
+    &_text {
+      font-size: 0.6875rem;
+      color: #202020;
+      opacity: 0.64;
+    }
+
+    &_button {
+      background-color: black;
+      height: 2.5rem;
+      padding: 0.625rem;
+      color: white;
+      border-radius: 1.25rem;
+      width: 8.75rem;
+    }
+  }
+}

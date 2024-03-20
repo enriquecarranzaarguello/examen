@@ -1,0 +1,99 @@
+/*
+ - TODO
+ - check naming conventions of file
+*/
+
+.card {
+  width: 100%;
+  border-radius: 33px;
+  background: #f6f5f7;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-items: center;
+  padding: 1.5rem 1.5rem;
+
+  &_title {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0c0c0c;
+    line-height: 1.5;
+  }
+
+  &_container {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    background: white;
+    border-radius: 24px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+    &_columns {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+
+      &_layout {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        &_element {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+
+          &_title {
+            font-size: 12px;
+            color: #272727;
+            opacity: 0.5;
+          }
+
+          &_content {
+            width: 100%;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 23px;
+            color: black;
+          }
+
+          div {
+            display: flex;
+            flex-direction: row;
+            gap: 0.5rem;
+          }
+        }
+      }
+    }
+
+    &_titlePayment {
+      font-size: 12px;
+      color: #272727;
+      opacity: 0.5;
+    }
+
+    &_separation {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 0.25rem;
+
+      &_info {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 23px;
+        color: black;
+      }
+
+      &_remark {
+        color: theme('colors.whiteLabelColor');
+        font-weight: 700;
+        font-size: 16px;
+      }
+    }
+  }
+}

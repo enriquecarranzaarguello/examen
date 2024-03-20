@@ -1,0 +1,244 @@
+.header {
+  display: none;
+  max-height: 16px;
+  color: #333;
+  padding: 0 16px 0 26px;
+  font-size: 14px;
+  border-radius: 24px 24px 0px 0px;
+  font-size: 13px;
+
+  &_about {
+    flex: 1;
+    text-align: left;
+  }
+
+  &_facilities {
+    flex: 1;
+    text-align: left;
+  }
+
+  &_price {
+    width: 220px;
+    text-align: left;
+  }
+
+  @media (min-width: 1280px) {
+    display: flex;
+  }
+}
+
+.item {
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  padding: 24px;
+  padding-bottom: 16px;
+  flex-direction: row;
+  border-radius: 24px;
+  border: 0.6px solid rgba(0, 0, 0, 0.02);
+  background: #fff;
+
+  &_about {
+    position: relative;
+    flex: 1;
+
+    &_hotelName {
+      margin-bottom: 15px;
+      color: #1a1a1a;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 24px;
+    }
+
+    &_beds {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+  }
+
+  &_facilities {
+    display: flex;
+    gap: 10px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+
+  &_option {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  &_details {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 10px;
+    margin-bottom: 20px;
+
+    &_info {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+
+      &_more {
+        color: #000;
+        font-weight: 590;
+        line-height: 20px;
+      }
+
+      img {
+        cursor: pointer;
+      }
+    }
+
+    &_button_text {
+      display: flex;
+      align-items: center;
+      font-size: 12px;
+      gap: 10px;
+      font-weight: bold;
+    }
+
+    &_inner {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      font-size: 14px;
+      text-align: left;
+
+      &_check {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        width: 100%;
+        min-width: 165px;
+        justify-content: space-between;
+        font-size: 12px;
+
+        &_clock {
+          display: flex;
+          align-items: center;
+          width: 100%;
+
+          > div {
+            display: flex;
+            gap: 8px;
+            color: #1a1a1a;
+            font-size: 15px;
+            font-weight: 590;
+            line-height: 23px;
+            width: 110px;
+          }
+
+          span {
+            font-size: 15px;
+            line-height: 23px;
+            margin-left: 8px;
+            margin-right: auto;
+          }
+        }
+      }
+
+      &_cancellation {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      &_transfer {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        font-weight: 590;
+        color: black;
+      }
+    }
+  }
+
+  &_wrapper {
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+
+    &_price {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 9px;
+    }
+
+    &_value {
+      display: flex;
+      align-items: center;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: normal;
+    }
+
+    &_taxes {
+      margin-top: 0;
+      color: #212222;
+      line-height: 16px;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    display: flex;
+    gap: 30px;
+
+    &_about {
+      &_beds {
+        margin-bottom: 10px;
+      }
+    }
+
+    &_details {
+      margin-bottom: 0;
+      margin-top: 0;
+      padding-right: 25px;
+      padding-bottom: 8px;
+      align-items: flex-end;
+
+      &:after {
+        content: '';
+        position: absolute;
+        top: -24px;
+        right: 0;
+        width: 1px;
+        height: calc(100% + 24px + 24px);
+        background: #dfdfdf;
+      }
+    }
+
+    &_about {
+      display: flex;
+      flex-direction: column;
+      padding-right: 10px;
+      padding-bottom: 8px;
+    }
+
+    &_wrapper {
+      align-items: center;
+
+      &_value {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: normal;
+      }
+
+      &_price {
+        flex-direction: column;
+        gap: 47px;
+      }
+    }
+  }
+}

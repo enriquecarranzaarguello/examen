@@ -1,0 +1,459 @@
+[
+  {
+    "id": 1,
+    "code": "BKK",
+    "city": "Bangkok",
+    "country": "Thailand",
+    "airports": ["DMK", "BKK"],
+    "keywords": [
+      "Suvarnabhumi Airport",
+      "Don Mueang International Airport",
+      "Old Bangkok International Airport",
+      "Don Muang Royal Thai Air Force Base"
+    ]
+  },
+  {
+    "id": 2,
+    "code": "BJS",
+    "city": "Beijing",
+    "country": "China",
+    "airports": ["PEK", "PKX"],
+    "keywords": [
+      "Beijing Capital International Airport",
+      "Beijing Daxing International Airport",
+      "Peking"
+    ]
+  },
+  {
+    "id": 3,
+    "code": "OSA",
+    "city": "Osaka",
+    "country": "Japan",
+    "airports": ["KIX", "ITM"],
+    "keywords": ["Kansai International Airport", "Osaka International Airport"]
+  },
+  {
+    "id": 4,
+    "code": "SPK",
+    "city": "Sapporo",
+    "country": "Japan",
+    "airports": ["CTS", "OKD"],
+    "keywords": ["New Chitose Airport", "Sapporo Okadama Airport"]
+  },
+  {
+    "id": 5,
+    "code": "SEL",
+    "city": "Seoul",
+    "country": "South Korea",
+    "airports": ["ICN", "GMP"],
+    "keywords": ["Incheon International Airport", "Gimpo International Airport"]
+  },
+  {
+    "id": 6,
+    "code": "SHA",
+    "city": "Shanghai",
+    "country": "China",
+    "airports": ["SHA", "PVG"],
+    "keywords": [
+      "Shanghai Hongqiao International Airport",
+      "Shanghai Pudong International Airport",
+      "Pudong",
+      "Minhang",
+      "Hongqiao"
+    ]
+  },
+  {
+    "id": 7,
+    "code": "TYO",
+    "city": "Tokyo",
+    "country": "Japan",
+    "airports": ["NRT", "HND"],
+    "keywords": [
+      "Tokio",
+      "Narita International Airport",
+      "Narita",
+      "Tokyo Narita Airport",
+      "New Tokyo International Airport",
+      "Tokyo Haneda International Airport",
+      "Haneda"
+    ]
+  },
+  {
+    "id": 8,
+    "code": "JKT",
+    "city": "Jakarta",
+    "country": "Indonesia",
+    "airports": ["CGK", "HLP"],
+    "keywords": [
+      "Halim Perdanakusuma International Airport",
+      "Soekarno-Hatta International Airport",
+      "WIIH",
+      "WIIX",
+      "WIID",
+      "Cengkareng",
+      "Java"
+    ]
+  },
+  {
+    "id": 9,
+    "code": "MEL",
+    "city": "Melbourne",
+    "country": "Australia",
+    "airports": ["MEL", "AVV", "MEB"],
+    "keywords": [
+      "Melbourne International Airport",
+      "Avalon Airport",
+      "Lara",
+      "Geelong",
+      "Essendon Fields Airport"
+    ]
+  },
+  {
+    "id": 10,
+    "code": "BUH",
+    "city": "Bucharest",
+    "country": "Romania",
+    "airports": ["OTP", "BBU"],
+    "keywords": [
+      "Henri Coandă International Airport",
+      "Otopeni Airport",
+      "RoAF 90th Airlift Base",
+      "Băneasa International Airport",
+      "Baneasa",
+      "Aurel Vlaicu International Airport"
+    ]
+  },
+  {
+    "id": 11,
+    "code": "BRU",
+    "city": "Brussels",
+    "country": "Belgium",
+    "airports": ["BRU", "CRL"],
+    "keywords": [
+      "Brussels Airport",
+      "Brussels National",
+      "Zaventem",
+      "Brussels South Charleroi Airport"
+    ]
+  },
+  {
+    "id": 12,
+    "code": "LON",
+    "city": "London",
+    "country": "United Kingdom",
+    "airports": ["LCY", "LGW", "LTN", "LHR", "SEN", "STN"],
+    "keywords": [
+      "Londres",
+      "London City Airport",
+      "London Gatwick Airport",
+      "Crawley",
+      "Charlwood",
+      "London Luton Airport",
+      "London Heathrow Airport",
+      "Southend Airport",
+      "RAF Rochford",
+      "London Stansted Airport"
+    ]
+  },
+  {
+    "id": 13,
+    "code": "MIL",
+    "city": "Milan",
+    "country": "Italy",
+    "airports": ["BGY", "MXP", "LIN", "PMF"],
+    "keywords": [
+      "Milan Bergamo Airport",
+      "Bergamo Orio al Serio Airport",
+      "Il Caravaggio International Airport",
+      "Malpensa International Airport",
+      "Milano Linate Airport",
+      "E Forlanini",
+      "Parma Airport",
+      "Parma"
+    ]
+  },
+  {
+    "id": 14,
+    "code": "MOW",
+    "city": "Moscow",
+    "country": "Russia",
+    "airports": ["SVO", "DME", "VKO", "ZIA", "BKA"],
+    "keywords": [
+      "Moscú",
+      "Sheremetyevo International Airport",
+      "Международный аэропорт Шереметьево",
+      "svo",
+      "sheremetyevo",
+      "Domodedovo International Airport",
+      "Аэропорт Домоде́дово",
+      "Vnukovo International Airport",
+      "Международный аэропорт Внуково",
+      "Zhukovsky International Airport",
+      "Аэропорт Раменское",
+      "Zhukovsky Air Base",
+      "Gromov Flight Research Institute",
+      "Лётно-исследовательский институт имени М. М. Громова",
+      "ЛИИ",
+      "Bykovo Airport"
+    ]
+  },
+  {
+    "id": 15,
+    "code": "OSL",
+    "city": "Oslo",
+    "country": "Norway",
+    "airports": ["OSL", "TRF"],
+    "keywords": ["Oslo Airport, Gardermoen", "Sandefjord Airport, Torp"]
+  },
+  {
+    "id": 16,
+    "code": "PAR",
+    "city": "Paris",
+    "country": "France",
+    "airports": ["CDG", "ORY", "BVA"],
+    "keywords": [
+      "Charles de Gaulle International Airport",
+      "Aéroport Roissy-Charles de Gaulle",
+      "Roissy Airport",
+      "Paris Orly Airport",
+      "Paris Beauvais Tillé Airport",
+      "Beauvais"
+    ]
+  },
+  {
+    "id": 17,
+    "code": "REK",
+    "city": "Reykjavik",
+    "country": "Iceland",
+    "airports": ["KEF", "RKV"],
+    "keywords": [
+      "Keflavik International Airport",
+      "Keflavik Naval Air Station",
+      "Reykjavik Airport"
+    ]
+  },
+  {
+    "id": 18,
+    "code": "ROM",
+    "city": "Rome",
+    "country": "Italy",
+    "airports": ["FCO", "CIA"],
+    "keywords": [
+      "Rome–Fiumicino Leonardo da Vinci International Airport",
+      "Rome Fiumicino Airport",
+      "Fiumicino Airport",
+      "Ciampino–G. B. Pastine International Airport",
+      "Giovan Battista Pastine Airport"
+    ]
+  },
+  {
+    "id": 19,
+    "code": "STO",
+    "city": "Stockholm",
+    "country": "Sweden",
+    "airports": ["ARN", "NYO", "BMA", "VST", "GOT"],
+    "keywords": [
+      "Stockholm-Arlanda Airport",
+      "Stockholm Skavsta Airport",
+      "Nyköping",
+      "Nykoping",
+      "Stockholm-Bromma Airport",
+      "Stockholm Västerås Airport",
+      "Stockholm Vasteras",
+      "Gothenburg-Landvetter Airport",
+      "Göteborg-Landvetter"
+    ]
+  },
+  {
+    "id": 20,
+    "code": "TCI",
+    "city": "Tenerife",
+    "country": "Spain",
+    "airports": ["TFN", "TFS"],
+    "keywords": [
+      "Tenerife Norte-Ciudad de La Laguna Airport",
+      "Canary Islands",
+      "Los Rodeos",
+      "Tenerife Sur Airport",
+      "Tenerife South"
+    ]
+  },
+  {
+    "id": 21,
+    "code": "CHI",
+    "city": "Chicago",
+    "country": "United States",
+    "airports": ["ORD", "MDW"],
+    "keywords": [
+      "Chicago O'Hare International Airport",
+      "Orchard Place",
+      "Chicago Midway International Airport",
+      "Chicago Rockford International Airport"
+    ]
+  },
+  {
+    "id": 22,
+    "code": "QDF",
+    "city": "Dallas",
+    "country": "United States",
+    "airports": ["DAL", "DFW"],
+    "keywords": ["Dallas Love Field", "Dallas Fort Worth International Airport"]
+  },
+  {
+    "id": 23,
+    "code": "DTT",
+    "city": "Detroit",
+    "country": "United States",
+    "airports": ["DTW", "DET"],
+    "keywords": [
+      "Detroit Metropolitan Wayne County Airport",
+      "Detroit Metro Airport",
+      "Coleman A. Young Municipal Airport"
+    ]
+  },
+  {
+    "id": 24,
+    "code": "YEA",
+    "city": "Edmonton",
+    "country": "Canada",
+    "airports": ["YEG"],
+    "keywords": ["Edmonton International Airport"]
+  },
+  {
+    "id": 25,
+    "code": "QHO",
+    "city": "Houston",
+    "country": "United States",
+    "airports": ["IAH", "HOU"],
+    "keywords": [
+      "George Bush Intercontinental Houston Airport",
+      "William P Hobby Airport"
+    ]
+  },
+  {
+    "id": 27,
+    "code": "YMQ",
+    "city": "Montreal",
+    "country": "Canada",
+    "airports": ["YUL", "YHU"],
+    "keywords": [
+      "Montreal / Pierre Elliott Trudeau International Airport",
+      "Dorval Airport",
+      "Montreal / Saint-Hubert Airport"
+    ]
+  },
+  {
+    "id": 28,
+    "code": "NYC",
+    "city": "New York",
+    "country": "United States",
+    "airports": ["JFK", "EWR", "LGA", "HPN"],
+    "keywords": [
+      "Manhattan",
+      "New York City",
+      "John F Kennedy International Airport",
+      "Newark Liberty International Airport",
+      "La Guardia Airport",
+      "Glenn H. Curtiss Airport",
+      "North Beach Airport",
+      "La Guardia",
+      "Westchester County Airport"
+    ]
+  },
+  {
+    "id": 29,
+    "code": "SEA",
+    "city": "Seattle",
+    "country": "United States",
+    "airports": ["SEA", "BFI", "PAE"],
+    "keywords": [
+      "Seattle–Tacoma International Airport",
+      "Boeing Field King County International Airport",
+      "Snohomish County (Paine Field) Airport"
+    ]
+  },
+  {
+    "id": 30,
+    "code": "YTO",
+    "city": "Toronto",
+    "country": "Canada",
+    "airports": ["YYZ", "YTZ"],
+    "keywords": [
+      "Toronto Lester B. Pearson International Airport",
+      "Toronto International Airport",
+      "Malton",
+      "Billy Bishop Toronto City Centre Airport",
+      "Toronto Island Airport"
+    ]
+  },
+  {
+    "id": 31,
+    "code": "WAS",
+    "city": "Washington DC",
+    "country": "United States",
+    "airports": ["IAD", "DCA", "BWI"],
+    "keywords": [
+      "Washington Dulles International Airport",
+      "Ronald Reagan Washington National Airport",
+      "Baltimore/Washington International Thurgood Marshall Airport",
+      "Baltimore",
+      "Dulles"
+    ]
+  },
+  {
+    "id": 32,
+    "code": "BHZ",
+    "city": "Belo Horizonte",
+    "country": "Brazil",
+    "airports": ["CNF", "PLU"],
+    "keywords": [
+      "Tancredo Neves International Airport",
+      "Pampulha - Carlos Drummond de Andrade Airport"
+    ]
+  },
+  {
+    "id": 33,
+    "code": "BUE",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "airports": ["EZE", "AEP"],
+    "keywords": [
+      "Minister Pistarini International Airport",
+      "Ezeiza",
+      "Jorge Newbery Airpark"
+    ]
+  },
+  {
+    "id": 34,
+    "code": "RIO",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "airports": ["GIG", "SDU"],
+    "keywords": [
+      "Rio Galeão – Tom Jobim International Airport",
+      "Santos Dumont Airport"
+    ]
+  },
+  {
+    "id": 35,
+    "code": "SAO",
+    "city": "São Paulo",
+    "country": "Brazil",
+    "airports": ["GRU", "CGH", "VCP"],
+    "keywords": [
+      "Sao Paulo",
+      "Guarulhos - Governador André Franco Montoro International Airport",
+      "Congonhas Airport",
+      "Viracopos International Airport",
+      "Campinas"
+    ]
+  },
+  {
+    "id": 36,
+    "code": "MEX",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "airports": ["MEX", "NLU", "TLC"],
+    "keywords": ["Ciudad de México"]
+  }
+]

@@ -1,0 +1,26 @@
+.hotelDateRange {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 10px;
+  margin-bottom: 10px;
+  background-color: #292929;
+  min-height: 40px;
+  border-radius: 8px;
+
+  &_range {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 9px;
+  }
+
+  &_line {
+    width: 25px;
+    border-width: 1px;
+    border-color: white;
+    opacity: 0.16;
+  }
+}

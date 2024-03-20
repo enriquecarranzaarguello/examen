@@ -1,0 +1,36 @@
+.starsContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  &_stars {
+    display: flex;
+    align-items: center;
+  }
+
+  &_text {
+    color: white;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 650;
+    line-height: 23px;
+  }
+}
+
+.hotelDetailsStars {
+  display: flex;
+  gap: 4px;
+  margin-top: 0;
+
+  img {
+    height: 15px;
+  }
+
+  @media (min-width: 768px) {
+    gap: 10px;
+
+    img {
+      height: 20px;
+    }
+  }
+}

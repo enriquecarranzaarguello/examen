@@ -1,0 +1,150 @@
+// Mercado Pago form
+.MercadoPagoCheckoutForm {
+  // Layout
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+
+  &_field {
+    // Layout
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+
+    &_label {
+      // Layout
+      align-self: stretch;
+
+      // Typography
+      color: #d3d3d3;
+      font-size: 14.88px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 145%; /* 21.576px */
+    }
+
+    &_error {
+      display: block;
+      width: 100%;
+      color: #f27474;
+      font-size: 1rem; // Asumiendo que "text-base" se traduce a 1rem
+      margin-top: 1rem;
+      margin-bottom: -1rem;
+    }
+
+    &_field {
+      // Layout
+      display: flex;
+      padding: 12px 0;
+      align-items: center;
+      gap: 8px;
+      align-self: stretch;
+      height: 46px;
+      width: 100%;
+      color: #b5b5b5;
+
+      // Style
+      border-radius: 5px;
+      border: 1px solid #3f3f3f;
+      background: #202020;
+
+      &_div {
+        // Layout
+        flex: 1 0 0;
+        padding: 0 12px;
+
+        // Typography
+        color: #b5b5b5;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 145%; /* 23.2px */
+      }
+
+      &_input {
+        // Layout
+        flex: 1 0 0;
+
+        // Typography
+        border: 1px solid #3f3f3f;
+        border-radius: 5px;
+        background: #202020;
+        gap: 8px;
+        padding: 12px;
+        width: 100%;
+
+        color: #b5b5b5;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 145%; /* 23.2px */
+      }
+
+      &_select {
+        // Layout
+        flex: 1 0 0;
+
+        // Typography
+        border: 1px solid #3f3f3f;
+        border-radius: 5px;
+        background: #202020;
+        gap: 8px;
+        padding: 12px;
+        width: 100%;
+
+        color: #b5b5b5;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 145%; /* 23.2px */
+      }
+
+      &_button {
+        // Layout
+        flex: 1 0 0;
+
+        // Typography
+        color: #b5b5b5;
+        caret-color: #d3d3d3;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 145%; /* 23.2px */
+      }
+    }
+  }
+}
+
+.MercadoPagoTicket {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 2.5rem;
+  color: white;
+  border-radius: 20px;
+  background-color: #202020;
+
+  &_content {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 1.25rem;
+  }
+
+  &_h2 {
+    font-weight: 700;
+    text-align: left;
+    font-size: 25px;
+  }
+
+  &_h3 {
+    font-weight: 500;
+    text-align: left;
+    font-size: 20px;
+  }
+}

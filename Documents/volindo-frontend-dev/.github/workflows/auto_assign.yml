@@ -1,0 +1,28 @@
+name: 'Auto Assign PR'
+on:
+  pull_request:
+    types: [opened, reopened, ready_for_review]
+
+jobs:
+  add-reviews:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Assign Reviewers
+        uses: kentaro-m/auto-assign-action@v2.0.0
+        with:
+          configuration-path: '.github/auto_assign_config.yml'
+      - name: Get Reviewers and post a Slack Notification
+        run: |
+          PR_NUMBER=${{ github.event.pull_request.number }}
+          REPO_NAME=${{ github.repository }}
+          TOKEN=${{ secrets.GITHUB_TOKEN }}
+
+          REVIEWERS=$(curl -s -H "Authorization: token $TOKEN" \
+            "https://api.github.com/repos/$REPO_NAME/pulls/$PR_NUMBER/requested_reviewers" | jq -r '.users[] .login' | paste -s -d ',' -)
+
+          SLACK_MESSAGE=":mag_right: *Code Review Request*\n\n>*Pull Request:* <${{ github.event.pull_request.html_url }}|${{ github.event.pull_request.title }} (${{ github.event.pull_request.number }})> \n>*Repository:* ${{ github.repository }} \n>*By:* ${{ github.event.pull_request.user.login }} \n>*Reviewers:* $REVIEWERS "
+
+          curl -X POST -H 'Content-type: application/json' --data '{"text":"'"$SLACK_MESSAGE"'"}' ${{ secrets.SLACK_WEBHOOK_URL }}
+        shell: bash
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}

@@ -1,0 +1,77 @@
+.modalPolicy {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 30px;
+
+  &_mainTitle {
+    color: white;
+    font-weight: 760;
+    transform: scaleY(0.7) scale(1.05);
+    font-size: 42px;
+    line-height: 38px;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  &_notAvailable {
+    color: white;
+    font-size: 16px;
+  }
+
+  &_section {
+    margin-bottom: 20px;
+    &_title {
+      color: white;
+      font-weight: 600;
+      font-size: 24px;
+      margin-bottom: 18px;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      justify-content: center;
+
+      span {
+        line-height: 24px;
+      }
+    }
+
+    &_policies {
+      display: flex;
+      max-width: 915px;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    &_policy {
+      flex: 1;
+    }
+
+    &_image {
+      &__allFlights {
+        margin-top: 3px;
+      }
+    }
+  }
+
+  &_flights {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 915px;
+
+    .modalPolicy_section {
+      flex: 1;
+
+      &_policies {
+        flex-wrap: nowrap;
+        flex-direction: column;
+      }
+    }
+  }
+}

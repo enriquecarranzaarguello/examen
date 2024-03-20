@@ -1,0 +1,36 @@
+.roomdetails {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: flex-start;
+  gap: 1.25rem;
+
+  &_image {
+    width: 30%;
+    min-width: 125px;
+    max-width: 205px;
+    height: 98px;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  &_text {
+    font-weight: 400;
+    line-height: 1rem;
+    margin-bottom: 0.5rem;
+    color: white;
+
+    &_room {
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.5);
+    }
+
+    &_details {
+      font-size: 16px;
+      text-transform: inherit;
+    }
+  }
+}
